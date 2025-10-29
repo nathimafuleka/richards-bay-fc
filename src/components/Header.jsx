@@ -59,9 +59,9 @@ const Header = () => {
         <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <a href="/" className="flex items-center group">
+            <a href="/richards-bay-fc/" className="flex items-center group">
               <img 
-                src="/logo.png" 
+                src="/richards-bay-fc/logo.png" 
                 alt="Richards Bay FC"
                 className="w-16 h-16 object-contain transform group-hover:scale-105 transition-transform duration-300"
               />

@@ -5,6 +5,7 @@ import { resolve } from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/richards-bay-fc/', // 👈 IMPORTANT for GitHub Pages
   build: {
     rollupOptions: {
       input: {
